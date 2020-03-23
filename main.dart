@@ -8,6 +8,9 @@ void main(){
 
   anotherClass wtf = new anotherClass();
   wtf.anotherFucntion();
+  wtf.emptyFunction();
+  wtf.fix();
+  wtf.exampleArguement();
 }
 
 class TestClass{
@@ -24,6 +27,28 @@ class anotherClass{
       print(haha.toUpperCase() + " correct");
     } else {
       print("nope");
+    }
+  }
+
+  void emptyFunction(){
+    int num;
+    print(num);
+  }
+
+  void fix(){
+    const pi = 3.14;
+    final area = pi * 12 * 12;
+    print("The Output is ${area}, ${pi}");
+  }
+
+  void exampleArguement(){
+    var abc = 10;
+    var a = abc > 12;
+    var b = a ?? abc;
+    if (a == true){
+      print("==");
+    } else {
+      print("a: ${a} \n abc: ${abc} \n b: ${b}");
     }
   }
 }
