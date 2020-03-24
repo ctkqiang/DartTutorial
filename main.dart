@@ -108,8 +108,9 @@ class lolipop{
   void ff(){
     double num2 = 3.333;
     int num1 = 10;
+    String text = "This is a single line string";
     outerloop: // This is the label name
-   for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 3; i++) {
       print("Outerloop:---> ${i}");
       for (var j = 0; j < 5; j++) {
          if (j == 3){
@@ -120,7 +121,8 @@ class lolipop{
    }
 
    print("This is integer ${num1}, This is double ${num2}");
-   print(num.parse("12A"));
-   print(num.parse("AAAA"));
+   //print(num.parse("12A"));
+   //print(num.parse("AAAA"));
+   print(text);
   }
 }
