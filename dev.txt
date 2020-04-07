@@ -1,0 +1,2 @@
+dart2js -o name.js name.dart (a tool for converting dart to javascript);
+dartnative (to .exe)

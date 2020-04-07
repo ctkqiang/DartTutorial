@@ -38,6 +38,7 @@ void main() {
   lolipop pop = new lolipop();
   pop.forLoop();
   pop.ff();
+  pop.boolTest();
 }
 
 class TestClass {
@@ -124,5 +125,11 @@ class lolipop{
    //print(num.parse("12A"));
    //print(num.parse("AAAA"));
    print(text);
+  }
+
+  void boolTest(){
+    bool test;
+    test = 12 < 1;
+    print(test);
   }
 }
